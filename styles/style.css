@@ -3,3 +3,87 @@
 .font{
     font-family: "Inter", sans-serif;
 }
+/*Navber style*/
+ 
+.display-flex{
+    display: flex;
+    color: aliceblue;
+    font-size: 15px;
+}
+.btn{
+    background-color: rgb(230,83,60);
+    height: 20px;
+    width: 60px;
+    border-radius: 15px;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.bg-light-black{
+    background: linear-gradient(180.00deg, rgb(3, 3, 3),rgba(5, 5, 5, 0.849) 100%);
+    width:100%;
+    height:500px;
+   
+}
+.fit{
+    color: rgb(230,83,60);
+    font-size: 35px;
+}
+.navber{
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 130px;
+}
+.nav-item{
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-link{
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    height: 650px;
+    margin: 0 auto;
+}
+.heading{
+    color: rgb(255 255 255);
+    font-size: 48px;
+}
+.content{
+    font-size: 10px;
+    color: rgba(121, 110, 110, 0.877);
+    
+
+}
+.btn-primary{
+    background-color: rgb(230 83 60);
+    border-radius: 19px;
+    border: none;
+    padding: 5px;
+    margin: 0 5px;
+    height: 30px;
+    width: 140px;
+    color: aliceblue;
+    font-size: 12px;
+    margin-top: 50px;
+    margin-left: 110px;
+    
+}
+.two{
+    box-sizing: border-box; 
+    background-color:rgba(17, 16, 16, 0.849) ;
+border: 1px solid rgb(59, 58, 58);
+border-radius: 42px;
+    padding: 5px;
+    margin: 0 5px;
+    height: 35px;
+    width: 140px;
+    color: aliceblue;
+    font-size: 12px;
+}
+.my-div{
+  margin-left: 120px;
+}
