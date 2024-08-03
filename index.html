@@ -5,6 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitness</title>
     <link rel="stylesheet" href="styles/style.css">
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        thead td{
+            color: rgb(255, 255, 255)
+        }
+        td{
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            font-size: 8px;
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.5);
+            padding: 6px 8px;
+            text-align: left;
+        }
+
+    </style>
 </head>
 <body class="font">
     <header class="bg-light-black">
@@ -41,12 +58,10 @@
 
 
 </header>
-
-
     <main>
         <section class="habit-section">
             <h4 class="banner">Change Your Habits</h4>
-            <p style="color: rgba(255, 255, 255, 0.3);font-size: 9px;margin-top: -650px;text-align: center;">We believe fitness should be accessible to everyone, everywhere, regardless of income<br>or access to a gym.</p>
+            <p style="color: rgba(255, 255, 255, 0.3);font-size: 9px;margin-top: -600px;text-align: center;">We believe fitness should be accessible to everyone, everywhere, regardless of income<br>or access to a gym.</p>
             <div id="picture"><img src="./styles/images/image 3.png" alt="">
                 
             
@@ -67,17 +82,63 @@
                         <div><h5 class="loss">Weight Loss</h5>
                             <p class="weight">We believe fitness should be <br>accessible to everyone</p></div>
 
-                            <div class="card"><h3>Run an Extra 
-                                Mile Easily</h3>
-                                <p class="everyone">We believe fitness should be accessible to everyone,<br>everywhere, regardless of income or access to a gym. With<br>hundreds of professional workouts.</p>
-                                
-                            </div>
-        </section>
+     <div class="card"><h3 style="padding: 0px;margin:20px 18px 0px 18px">Run an Extra <br>
+    Mile Easily</h3>  <p class="everyone">We believe fitness should be accessible to everyone,<br>everywhere, regardless of income or access to a gym. With<br>hundreds of professional workouts.</p>
+   <button class="btn-primary now">Join now</button>
+         <div class="ground"><img style="position: absolute;height:24%; width: 15% ; border-radius: 10px ;margin: 20px 0px;" src="./styles/images/run.jpg" alt=""></div>
+                     </div>
+                     
+                     <h3 style="font-weight:1000;color: aliceblue;font-size: 25px;margin-bottom: 0px;margin-right: 150px;margin-top: 80px;">BMI Calculator</h3>  
+                       
+                            <p style="font-size: 9px;color:  rgba(121, 110, 110, 0.877);margin-right: -50px;">We believe fitness should be accessible to everyone, everywhere, regardless of income or <br>access to a gym.</p>
+                            
+                    </div> 
+            </section>
+           <div class="healthy bml">
+            <div class="table">
+                <h4 style="color: aliceblue;font-size: 15px;font-weight: 1000;">BMI Calculator Chart</h4>
+                <table>
+                   <thead><tr><td>BMI</td>
+                     <td>Weight</td>
+                    </tr>
+    
+    
+                   </thead>
+                   <tbody>
+                    <tr> <td>Below 18.5</td>
+                        <td>Underweight</td></tr>
+                        <tr> <td>18.5 - 24.9</td>
+                            <td>Healthy</td></tr>
+                   <tr>
+                    <td>25.0 - 29.9</td>
+                    <td>Overweight</td></tr>
+                    <tr><td>30.0 - and Above</td>
+                        <td>Obese</td>
+                    </tr>
+            </tbody>
+        </table>
+       
+               </div>
+               
+<div>
+    
+    <h3 style="color: aliceblue;font-size: 15px;font-weight: 1000;"">Calculate Your BMI</h3>
+    <p style="color: rgba(255, 255, 255, 0.3);font-size: 9px;">We believe fitness should be accessible to everyone, everywhere, regardless of<br> income or access to a gym. </p>
+    <div class="input">
+    <p style="border-radius: 5px;background: rgba(255, 255, 255, 0.1);height: 18px;width: 180px;padding:5px;">Height/cm</p>
+    <p style="border-radius: 5px;background: rgba(255, 255, 255, 0.1);height: 18px;width: 180px;padding:5px;">Weight/kg</p>
+    <p style="border-radius: 5px;background: rgba(255, 255, 255, 0.1);height: 18px;width: 180px;padding:5px;">Age </p>
+    <select style="border-radius: 7px;background: rgba(255, 255, 255, 0.1);height: 29px;width: 190px;font-size: 9px;font-family: 400px;border: none;color: rgba(255, 255, 255, 0.4);margin-top: 8px;"><option value="sex">sex</option></select>
+    <select style="border-radius: 7px;background: rgba(255, 255, 255, 0.1);height: 29px;width: 390px;font-size: 9px;font-weight: 400px;border: none;color: rgba(255, 255, 255, 0.4);"><option value="Select an activity factor">Select an activity factor</option></select>
+      
+    
         
-
+    </div>
+    <button class="Calculate">Calculate</button>
+</div>
+           </div>         
     </main>
     <footer>
-
     </footer>
 
     
